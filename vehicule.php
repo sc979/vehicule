@@ -3,7 +3,7 @@
 abstract class vehicule
 {
 
-	public $matricule = 0; // autoincrement
+	//public $matricule = 0; // autoincrement
 	
 	protected $year = 0;
 	protected $modele = NULL;

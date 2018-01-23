@@ -4,10 +4,6 @@ include_once('vehicule.php');
 
 class voiture extends vehicule
 {
-	public $matricule;
-	public $year;
-	public $modele;
-	public $price;
 
 	public function __construct($matricule, $year,$modele,$price)
 	{
@@ -50,7 +46,7 @@ class voiture extends vehicule
 	*/
 	public function ToString()
 	{
-		echo "\nCette voiture est une ".$this->modele." de ".$this->year."\nElle coûte : ". $this->price."€ et est immatriculée : 00".$this->matricule." ABC 75\n";
+		echo "\nCette voiture est une ".$this->getModele()." de ".$this->getYear()."\nElle coûte : ". $this->getPrice()."€ et est immatriculée : 00".$this->getMatricule()." ABC 75\n";
 	}
 
 }
