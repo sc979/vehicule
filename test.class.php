@@ -1,17 +1,16 @@
 <?php
 
-include_once ('voiture.php');
-include_once ('camion.php');
+include_once ('autoloader.php');
 
 
 class test
 {
 	public $matricule = 0;
 
-	function __construct()
+	public function __construct()
 	{}
 
-	function testVehicule($mode, $year, $modele, $price)
+	public function testVehicule($mode, $year, $modele, $price)
 	{
 		$this->mode = $mode;
 		$this->year = $year;

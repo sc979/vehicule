@@ -1,7 +1,5 @@
 <?php
 
-include_once('vehicule.php');
-
 class camion extends vehicule
 {
 

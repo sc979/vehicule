@@ -1,7 +1,5 @@
 <?php
 
-include_once('vehicule.php');
-
 class voiture extends vehicule
 {
 
